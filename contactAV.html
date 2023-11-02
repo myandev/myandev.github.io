@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirect to Viber</title>
+    <script>
+        // Function to detect if the user is not redirected and show a message with a link
+        function redirectToViber() {
+            setTimeout(function() {
+                window.location.href = "viber://pa?chatURI=club388onlinegame&text=";
+            }, 3000); // Redirect after 3 seconds
+            
+            // Show a message with a link if the user is not redirected
+            setTimeout(function() {
+                var message = document.getElementById("message");
+                message.innerHTML = "If you are not redirected, please click <a href=\"viber://pa?chatURI=club388onlinegame&text=\">here</a>.";
+            }, 2000); // Show the message after 2 seconds
+        }
+    </script>
+</head>
+<body onload="redirectToViber()">
+    <p id="message">Redirecting to Viber...</p>
+</body>
+</html>
