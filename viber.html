@@ -1,116 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Button Example</title>
-  <style>
+	<title>555Mix</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		h1 {
+			color: #333;
+			font-size: 36px;
+			margin: 0;
+			padding: 20px;
+			text-align: center;
+			text-shadow: 1px 1px #fff;
+		}
+		p {
+			color: #666;
+			font-size: 18px;
+			margin: 0;
+			padding: 10px;
+			text-align: center;
+		}
+		button {
+		  
+    text-decoration: none;
+			background-color: #333;
+		
+			border-radius: 5px;
+			color: #fff;
+			
+			display: block;
+			font-size: 24px;
+			margin: 0 auto;
+			padding: 10px 20px;
+			text-align: center;
+			text-shadow: 1px 1px #000;
+			transition: background-color 0.3s ease;
+			width: 400px;
+		}
+		button:hover {
+			background-color: #666;
+		}
+		img {
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+			padding: 0px;
+			position: absolute;
+			bottom: 0;
+		}
   
-  .designed-by {
-    text-align: center;
-    margin-top: 20px;
-    color: red; /* Add this lone to set the text color to red */
-  }
-    /* CSS to hide search biar */
-    body::-webkit-scrollbar {
-      display: none;
-    }
+a {
+    text-decoration: none;
+}
 
-    /* CSS */
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
 
-    .button-container {
-      text-align: center;
-    }
-  
-    .button-53 {
-      background-color: #3DD1E7;
-      border: 0 solid #E5E7EB;
-      box-sizing: border-box;
-      color: #000000;
-      display: flex;
-      font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-      font-size: 1rem;
-      font-weight: 700;
-      justify-content: center;
-      line-height: 1.75rem;
-      padding: .75rem 1.65rem;
-      position: relative;
-      text-align: center;
-      text-decoration: none #000000 solid;
-      text-decoration-thickness: auto;
-      width: 100%;
-      max-width: 460px;
-      position: relative;
-      cursor: pointer;
-      transform: rotate(-2deg);
-      user-select: none;
-      -webkit-user-select: none;
-      touch-action: manipulation;
-    }
-  
-    .button-53:focus {
-      outline: 0;
-    }
-  
-    .button-53:after {
-      content: '';
-      position: absolute;
-      border: 1px solid #000000;
-      bottom: 4px;
-      left: 4px;
-      width: calc(100% - 1px);
-      height: calc(100% - 1px);
-    }
-  
-    .button-53:hover:after {
-      bottom: 2px;
-      left: 2px;
-    }
-  
-    .designed-by {
-      text-align: center;
-      margin-top: 20px;
-    }
-  
-    .designed-by a {
-      color: #000000;
-      text-decoration: none;
-    }
-  </style>
-  <script>
-    // JavaScript to make the page full screen
-    window.addEventListener("load", function() {
-      var isInFullScreen = (document.fullScreenElement && document.fullScreenElement !== null) ||
-                           (document.mozFullScreen || document.webkitIsFullScreen);
-
-      var docElm = document.documentElement;
-
-      if (!isInFullScreen) {
-        if (docElm.requestFullscreen) {
-          docElm.requestFullscreen();
-        } else if (docElm.mozRequestFullScreen) {
-          docElm.mozRequestFullScreen();
-        } else if (docElm.webkitRequestFullScreen) {
-          docElm.webkitRequestFullScreen();
-        }
-      }
-    });
-  </script>
+	</style>
 </head>
 <body>
-  <div class="button-container">
-  <h1>Origin 555 Mix</h1>
-    <h2>Viber မှတဆင့် ဆက်သွယ်ရန်နိပ်ပါ။</h2>
-    <h2>Contact Us from Viber</h2>
-    <a class="button-53" href="viber://pa?chatURI=fordbet999" role="button" target="external">Go To Viber</a>
-  
-  </div>
+	<h1>555Mix</h1>
+	<p>Viber မှတဆင့်</p>
+	<p>ဆက်သွယ်ပြီးကစားနိုင်ပါသည်</p>
+	<a href="viber://pa?chatURI=fordbet999">
+		<button>555Mix Viber Channel</button>
+	</a>
+  <a href="viber://pa?chatURI=fordbet999">
+	<img src="Test.png" alt="Your Image"></a>
 </body>
 </html>
