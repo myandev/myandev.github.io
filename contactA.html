@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SpaceX Service</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* အရောင်များနှင့် အခြေခံသတ်မှတ်ချက်များ */
+        :root {
+            --viber-color: #7360f2;
+            --viber-hover: #5e4bdb;
+            --telegram-color: #0088cc;
+            --telegram-hover: #0077b3;
+            --bg-color: #f0f2f5;
+            --card-bg: #ffffff;
+            --text-main: #1c1e21;
+            --text-muted: #65676b;
+        }
+
+        body {
+            font-family: 'Segoe UI', Pyidaungsu, Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* ဆက်သွယ်ရန် ကတ်ဒီဇိုင်း */
+        .contact-card {
+            background: var(--card-bg);
+            width: 100%;
+            max-width: 420px;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            text-align: center;
+        }
+
+        .contact-card h2 {
+            color: var(--text-main);
+            margin-top: 0;
+            margin-bottom: 30px;
+            font-size: 1.6rem;
+            font-weight: 600;
+        }
+
+        /* ခလုတ်များ၏ အခြေခံဒီဇိုင်း */
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 16px;
+            margin-bottom: 16px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            font-size: 1.05rem;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+        }
+
+        .btn i {
+            margin-right: 12px;
+            font-size: 1.3rem;
+        }
+
+        /* Viber ခလုတ် ဒီဇိုင်း */
+        .btn-viber {
+            background-color: var(--viber-color);
+            box-shadow: 0 4px 12px rgba(115, 96, 242, 0.25);
+        }
+
+        .btn-viber:hover {
+            background-color: var(--viber-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(115, 96, 242, 0.4);
+        }
+
+        /* စာသားပိုင်းခြားသည့် မျဉ်း (Divider) */
+        .divider {
+            margin: 35px 0 25px;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .divider::before, .divider::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 15%;
+            height: 1px;
+            background-color: #dcdde1;
+            z-index: -1;
+        }
+
+        .divider::before { left: 0; }
+        .divider::after { right: 0; }
+
+        /* Telegram ခလုတ် ဒီဇိုင်း */
+        .btn-telegram {
+            background-color: var(--telegram-color);
+            box-shadow: 0 4px 12px rgba(0, 136, 204, 0.25);
+        }
+
+        .btn-telegram:hover {
+            background-color: var(--telegram-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(0, 136, 204, 0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contact-card">
+        <h2>ဆက်သွယ်ရန်</h2>
+        
+        <a href="viber://chat?number=%2B959888318531" class="btn btn-viber">
+            <i class="fab fa-viber"></i> Viber VIP 1
+        </a>
+        <a href="viber://chat?number=%2B959894870780" class="btn btn-viber">
+            <i class="fab fa-viber"></i> Viber VIP 2
+        </a>
+        <a href="viber://chat?number=%2B959798940376" class="btn btn-viber">
+            <i class="fab fa-viber"></i> Viber VIP 3
+        </a>
+
+        <div class="divider">Telegram ကနေလဲ ဆက်သွယ်နိုင်ပါတယ်</div>
+
+        <a href="https://t.me/SpaceXservice_bot" target="_blank" class="btn btn-telegram">
+            <i class="fab fa-telegram-plane"></i> Telegram မှ ဆက်သွယ်ရန်
+        </a>
+    </div>
+
+</body>
+</html>
