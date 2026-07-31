@@ -1,7 +1,8 @@
 {
   "templates": {
     "premium": [
-      "template_1.json"
+      "template_1.json",
+      "my-templates_07-31-2341.json"
     ],
     "free": [
       
