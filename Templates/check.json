@@ -1,12 +1,10 @@
 {
   "templates": {
     "premium": [
-      
+      "template_1.json"
     ],
     "free": [
-      "",
-      "",
-      ""
+      
     ]
   }
 }
