@@ -1,2 +1,16 @@
-
-.
+{
+  "fonts": {
+    "premium": [
+      "BurmaArt007Uni-Regular.ttf",
+      "SM04_Moon-Regular.ttf",
+      "SM06_LaikPyar-Regular.ttf",
+      "SM06_LaikPyar-Straight.ttf",
+      "SM07_Virus-Regular.ttf",
+      "SM08_AntiVirus-Regular.ttf"
+    ],
+    "free": [
+      "SM09_BeeZee-Regular.otf.ttf",
+      "Thit Sar Shwe Si.ttf"
+    ]
+  }
+}
