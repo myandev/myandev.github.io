@@ -1,20 +1,37 @@
 {
   "fonts": {
     "premium": [
-      "BurmaArt007Uni-Regular.ttf",
-      "SM04_Moon-Regular.ttf",
-  "Aka03-Regular.ttf",
+      "Aka011-Regular.ttf",
+      "Aka03-Regular.ttf",
       "Aka05-Regular.ttf",
       "Aka06-Regular.ttf",
+      "Aka08-Regular.ttf",
       "Aka09-Regular.ttf",
+      "BurmaArt007Uni-Regular.ttf",
+      "MasterpieceCTL.ttf",
+      "MasterpieceDaung.ttf",
+      "MasterpieceDaungRound.ttf",
+      "MasterpieceLakwel.ttf",
+      "MasterpieceSpringRev.ttf",
+      "MasterpieceStadium.ttf",
+      "MasterpieceUniHand.ttf",
+      "MasterpieceUniType.ttf",
+      "MasterpieceYayChanZin.ttf",
+      "OneTypeChiangMai.ttf",
+      "OneTypeMMDot.ttf",
+      "OpenDyslexic-Regular.ttf",
+      "SM01_WaTokeLay-Regular.ttf",
+      "SM02_KanBaung-Regular.ttf",
+      "SM03_KaWai-Regular.ttf",
+      "SM04_Moon-Regular.ttf",
+      "SM06_LaikPyar-Regular.ttf",
       "SM06_LaikPyar-Straight.ttf",
       "SM07_Virus-Regular.ttf",
-      "SM08_AntiVirus-Regular.ttf"
-    ],
-    "free": [
+      "SM08_AntiVirus-Regular.ttf",
       "SM09_BeeZee-Regular.otf.ttf",
-      "SM06_LaikPyar-Regular.ttf",
-      "Thit Sar Shwe Si.ttf"
-    ]
+      "Thit Sar Shwe Si.ttf",
+      "ThitSarShweSi.ttf"
+    ],
+    "free": []
   }
 }
