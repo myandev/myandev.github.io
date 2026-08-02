@@ -1,7 +1,7 @@
 {
   "showAd": true,
   "skip": false,
-  "second": "7.0"
+  "second": "7.0",
   "enableUrl": true,
   "Url":"https://google.com/"
 }
