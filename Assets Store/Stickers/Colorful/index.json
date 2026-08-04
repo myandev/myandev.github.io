@@ -1,13 +1,7 @@
-{
-  "name": "Colorful Stickers",
-  "description": "A set of colorful stickers for the Assets Store.",
-  "version": "1.0.0",
-  "author": "0x62905a629p01537e80rW",
-  "stickers": [
+[
     "bill.png",
     "100Dollar.webp",
     "Dollarbill.webp",
     "one.png",
     "3d-red-heart-shape-balloon-floating-with-confetti-png.png"
   ]
-}
