@@ -1,7 +1,20 @@
-[
+{
+  "name": "Colorful Stickers",
+  "description": "A set of colorful stickers for the Assets Store.",
+  "version": "1.0.0",
+  "author": "0x62905a629p01537e80rW",
+  "stickers": [
     "bill.png",
     "100Dollar.webp",
     "Dollarbill.webp",
     "one.png",
-    "3d-red-heart-shape-balloon-floating-with-confetti-png.png"
+    "3d-red-heart-shape-balloon-floating-with-confetti-png.png",
+    "Polish_20260803_190307924.png",
+    "Polish_20260803_190321070.png",
+    "Polish_20260803_190334007.png",
+    "Polish_20260803_190347424.png",
+    "Polish_20260803_190359604.png",
+    "Polish_20260803_190410447.png",
+    "Polish_20260803_190434288.png"
   ]
+}
